@@ -13,6 +13,7 @@ export declare class AppController {
             password: string;
             fullName: string;
             role: import("@prisma/client").$Enums.Role;
+            refreshToken: string | null;
             createdAt: Date;
             updatedAt: Date;
         }[];
